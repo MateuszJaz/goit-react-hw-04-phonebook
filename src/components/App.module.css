@@ -1,0 +1,19 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 100px;
+  background-color: ghostwhite;
+}
+
+h1 {
+  position: absolute;
+  top: 1%;
+  left: 23%;
+  background-color: white;
+}

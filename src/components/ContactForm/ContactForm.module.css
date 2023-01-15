@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  border: 6px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.formInput {
+  margin-bottom: 20px;
+  width: 250px;
+  padding: 8px;
+  border-color: gray;
+  border-radius: 5px;
+  font-size: 16px;
+  display: block;
+}
+
+.formBtn {
+  width: 150px;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: gray;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  transition: all 250ms ease;
+  cursor: pointer;
+}
+
+.formBtn:hover {
+  background-color: darkgreen;
+  box-shadow: 2px 2px 2px rgb(85, 84, 84);
+
+}

@@ -1,0 +1,7 @@
+.filterInput {
+  width: 250px;
+  padding: 8px;
+  border-color: gray;
+  border-radius: 5px;
+  font-size: 16px;
+}
